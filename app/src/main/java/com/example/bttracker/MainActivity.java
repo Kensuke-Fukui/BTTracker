@@ -3,6 +3,7 @@ package com.example.bttracker;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
+import android.net.Uri;
 import android.os.Bundle;
 import android.view.View;
 
@@ -30,7 +31,8 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void goToHandle(View view) {
-        Intent toHandle = new Intent(this, HandleActivity.class);
+        Intent toHandle = new Intent(Intent.ACTION_VIEW, Uri.parse("https://www.healthline.com/health/how-to-break-a-fever"));
+
         startActivity(toHandle);
     }
 }
