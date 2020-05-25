@@ -15,6 +15,7 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
     }
 
+    
     public void goToLogActivity(View view) {
         Intent toLog = new Intent(this, LogActivity.class);
         startActivity(toLog);
