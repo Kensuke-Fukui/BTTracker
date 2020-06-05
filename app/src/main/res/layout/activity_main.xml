@@ -127,7 +127,6 @@
             android:text="@string/handling_fever"
             android:textAppearance="@style/TextAppearance.AppCompat.Large"
             android:textColor="#FFFFFF" />
-
     </LinearLayout>
 
     <Button
