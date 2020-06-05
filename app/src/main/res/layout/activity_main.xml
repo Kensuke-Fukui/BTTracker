@@ -39,6 +39,7 @@
         app:srcCompat="@android:drawable/btn_star" />
 
     <LinearLayout
+        android:id="@+id/linearLayout2"
         android:layout_width="383dp"
         android:layout_height="291dp"
         android:orientation="vertical"
@@ -83,7 +84,7 @@
             android:background="#009688"
             android:paddingLeft="10dp"
             android:paddingTop="10dp"
-            android:text="Check Normal Range"
+            android:text="@string/check_normal_range"
             android:textAppearance="@style/TextAppearance.AppCompat.Large"
             android:textColor="#FFFFFF" />
 
@@ -103,7 +104,7 @@
             android:background="#009688"
             android:paddingLeft="10dp"
             android:paddingTop="10dp"
-            android:text="Mechanism of Fever"
+            android:text="@string/mechanism_of_fever"
             android:textAppearance="@style/TextAppearance.AppCompat.Large"
             android:textColor="#FFFFFF" />
 
@@ -123,10 +124,24 @@
             android:background="#009688"
             android:paddingLeft="10dp"
             android:paddingTop="10dp"
-            android:text="Handling Fever"
+            android:text="@string/handling_fever"
             android:textAppearance="@style/TextAppearance.AppCompat.Large"
             android:textColor="#FFFFFF" />
 
     </LinearLayout>
+
+    <Button
+        android:id="@+id/setReminderButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="setReminder"
+        android:text="Set Reminder"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.50"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout2"
+        app:layout_constraintVertical_bias="0.14" />
+
 
 </androidx.constraintlayout.widget.ConstraintLayout>
