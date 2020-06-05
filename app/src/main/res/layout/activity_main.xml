@@ -59,7 +59,7 @@
             android:background="#009688"
             android:paddingLeft="10dp"
             android:paddingTop="10dp"
-            android:text="Log Body Temperature"
+            android:text="@string/log_body_temperature"
             android:textAppearance="@style/TextAppearance.AppCompat.Large"
             android:textColor="#FFFFFF" />
 
