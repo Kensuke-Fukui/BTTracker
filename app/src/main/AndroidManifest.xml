@@ -12,7 +12,7 @@
         <receiver
             android:name=".ReminderBroadcastReceiver"
             android:enabled="true"
-            android:exported="true"></receiver>
+            android:exported="true" />
 
         <activity android:name=".HandleActivity" />
         <activity android:name=".MechanismActivity" />
