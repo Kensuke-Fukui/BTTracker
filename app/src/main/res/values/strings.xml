@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">BT Tracker</string>
+    <string name="log_body_temperature">Log Body Temperature</string>
 </resources>
